@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 2. How to Analyse Text Sentiment Without the Usage of Neural Networks? 
+title: How to Analyse Text Sentiment Without the Usage of Neural Networks? 
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/rule_based.png)  
 
 As previously discussed, sentiment analysis algorithms can be conducted in 3 main ways, through a 
- 
+
 1. Rule-based approach
 2. An autonomous (machine learning) approach
 3. A hybrid program that combines both approaches
