@@ -27,7 +27,7 @@ Conducting sentiment analysis is tricky, especially because humans themselves so
 
 More specifically, this NLP technique can be implemented in the following ways: 
 * Through a [rule-based method](https://saidaibrg.github.io/Sentiment-Analysis/)
-* With the help of [Machine Learning] (https://saidaibrg.github.io/ML-Approach/) (more specifically Neural Networks!)
+* With the help of [Machine Learning](https://saidaibrg.github.io/ML-Approach/) (more specifically Neural Networks!)
 * Through a hybrid method that combines both Rules and ML 
 
 

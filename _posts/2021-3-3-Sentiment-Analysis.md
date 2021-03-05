@@ -32,7 +32,7 @@ This process removes all URLs, hashtags, extra letters, whitespaces from the tex
 * **Stemming**
 This step basically “cuts off” the ending of the word to bring it back to its standard state. For example, “working” becomes “work” and “flowers” becomes “flower.” 
 * **Lemmatization**
-You might think that stemming isn’t accurate enough, as it doesn’t acknowledge whether the word is a verb or a noun. Lemmatization is a more complex function that takes into account the lexical meaning of the word before converting the word to its standard state.  
+You might think that stemming isn’t [accurate](https://www.toptal.com/deep-learning/4-sentiment-analysis-accuracy-traps) enough, as it doesn’t acknowledge whether the word is a verb or a noun. Lemmatization is a more complex function that takes into account the lexical meaning of the word before converting the word to its standard state.  
 
 The result is going to look somewhat like this: 
 
