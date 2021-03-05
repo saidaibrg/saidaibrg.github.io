@@ -16,6 +16,7 @@ Surprisingly, one of these methods - a **Rule-based Approach** - doesn't require
 ![_config.yml]({{ site.baseurl }}/images/rb_1.png)
  
 Say, we’re given the following text: 
+
 ![_config.yml]({{ site.baseurl }}/images/rb_2.png) 
 
 We, as humans, would logically think that the emotion of this sentence is POSITIVE. In this tutorial, we’ll try to figure out how to make a computer think so too. 
@@ -34,15 +35,16 @@ This step basically “cuts off” the ending of the word to bring it back to it
 You might think that stemming isn’t accurate enough, as it doesn’t acknowledge whether the word is a verb or a noun. Lemmatization is a more complex function that takes into account the lexical meaning of the word before converting the word to its standard state.  
 
 The result is going to look somewhat like this: 
+
 ![_config.yml]({{ site.baseurl }}/images/rb_3.png)  
 
-## Second step: Dictionary “Look-up.”
+### Second step: Dictionary “Look-up.”
 
 Once the input is concise and understandable, the program moves on to the lexical analysis of the text. This happens with the assistance for **lexicons**: databases, which act very similarly to dictionaries. However, instead of displaying a definition for each word, they return their **polarity**: a number that measures their “positiveness.” Since there’s a big variety of dictionaries out there, so the scale for polarity varies for each of them.
 
 ![Alt Text](https://media.giphy.com/media/L8ETAZEmZ8VtY1ed6D/giphy.gif)
 
-## Third step: Summation and Results.
+### Third step: Summation and Results.
 But generally, in the rule-based method, the sentiment of the whole text block is considered to be the sum of the polarity assigned to each word or (token).  
 
 ## #GoodNews 
