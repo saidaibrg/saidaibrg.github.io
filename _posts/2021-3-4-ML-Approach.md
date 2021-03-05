@@ -18,7 +18,7 @@ Take a look at these tweets:
 
 [Twitter - @JeffWysaki](https://www.boredpanda.com/funny-tweets-jeff-wysaski-pleated-jeans-obvious-plant/?media_id=538368)
 
-You, as a human reader, can clearly see that these tweets, despite the words “bomb” and “murderer,” do NOT have any NEGATIVE sentiment. That happens because your amazing brain is able to understand the given text *with* its context and make right conclusions about it. 
+You, as a human reader, can clearly see that these tweets, despite the words “bomb” and “murderer,” do NOT have any NEGATIVE sentiment. That happens because your [amazing brain](https://www.biorxiv.org/content/10.1101/2020.07.03.186288v1.full.pdf) is able to understand the given text *with* its context and make right conclusions about it. 
 
 Easy-peasy, right?
 
@@ -44,15 +44,15 @@ One way of conducting it is through [one-hot vectors](https://towardsdatascience
 
 ![_config.yml]({{ site.baseurl }}/images/ml_4.png)
 
-The other way of working with word vectors is through [*word embeddings.*](https://web.stanford.edu/~jurafsky/slp3/) In word embeddings, the sequences with 0s and 1s are much denser and each contain a lot more information. These numbers are imagined to be plotted on a multidimensional plane, where words in similar meaning are located next to each other. And although this method of word vectorization is mathematically complex, it allows data scientists to keep track of context as much as possible. 
+The other way of working with word vectors is through [*word embeddings.*](https://web.stanford.edu/~jurafsky/slp3/) In word embeddings, the sequences with 0s and 1s are much denser and each contain a lot more information. These numbers are imagined to be plotted on a multidimensional plane, where words in similar meaning are located next to each other. And although this method of word vectorization is [mathematically complex](https://github.com/yandexdataschool/nlp_course/tree/master/week01_embeddings), it allows data scientists to keep track of context as much as possible. 
 
 ![Alt Text](https://media.giphy.com/media/X9zOFhCdsR8FODDWxV/giphy.gif)
 
 ### Third step: Training and Testing the ML model! 
 
-Once the word vectors are determined, the time comes for the deployment of a machine learning model. There’re tons of resources out there to get you started with those, but one thing to make clear is that you won’t have to write a Neural Network by yourself from scratch :)
+Once the word vectors are determined, the time comes for the deployment of a machine learning model. There’re tons of [resources out](https://github.com/fastai/course-nlp) there to get you started with those, but one thing to make clear is *that you won’t have to write a Neural Network by yourself from scratch* :)
 
-You’ll be able to use one of the awesome existing Neural Networks - Naive Bayes, SVM, or Random Forest - to first train your machine learning model, and then test it by inputting your own data.
+You’ll be able to use one of the awesome [existing Neural Networks](https://www.linkedin.com/pulse/best-ai-algorithms-sentiment-analysis-muktabh-mayank/) - Naive Bayes, [SVM](https://www.researchgate.net/publication/342221481_Comparison_of_Naive_Bayes_and_SVM_Algorithm_based_on_Sentiment_Analysis_Using_Review_Dataset), or Random Forest - to first [train](https://www.kdnuggets.com/2018/08/emotion-sentiment-analysis-practitioners-guide-nlp-5.html) your machine learning model, and then test it by inputting your own data.
 
 ![Alt Text](https://media.giphy.com/media/QGA6c0mlRnglqKXkZZ/giphy.gif)
 
